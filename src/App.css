@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.App * {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  margin: 0;
+}
+
+.App {
+  max-width: 1480px;
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.store__header {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.store__content>.row {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+
+.shop-card {
+  flex: 1 1 33.3333%;
+  min-width: 240px;
+
+  max-width: 380px;
+
+  padding: 15px;
+  margin: 20px;
+  background-color: rgb(241, 239, 239);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  border-radius: 5px;
+}
+
+.shop-card__name {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+
+  color: grey;
+
+
+  margin-bottom: 15px;
+}
+
+.shop-card__color {
+  color: rgb(136, 136, 136);
+  font-size: 14px;
+  text-align: center;
+
+  margin-bottom: 15px;
+}
+
+.shop-card__img {
+  max-width: 100%;
+
+  display: flex;
+  margin: 15px auto;
+}
+
+.shop-card__footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shop-card__price {
+  color: red;
+
+  font-size: 16px;
+  white-space: nowrap;
+
+  margin-right: 20px;
+}
+
+.shop-card__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  color: red;
+  padding: 8px 15px;
+
+  background: transparent;
+
+  border-radius: 20px;
+  border: 1px solid red;
+
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.shop-card__btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.material-icons {
+  cursor: pointer;
+}
+
+
+.list-view {
+  list-style: none;
+}
+
+.shop-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 4px;
+
+  padding: 0 10px;
+
+  background-color: rgb(241, 239, 239);
+}
+
+.shop-item__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop-item__img > img {
+  max-width: 100px;
+}
+
+.shop-item__btn > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  color: red;
+  padding: 8px 15px;
+
+  background: transparent;
+
+  border-radius: 20px;
+  border: 1px solid red;
+
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.shop-item__name {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+
+  color: grey;
+}
+
+.shop-item__color {
+  color: rgb(136, 136, 136);
+  font-size: 14px;
+  text-align: center;
+}
+
+.shop-item__price {
+  color: red;
+
+  font-size: 16px;
+  white-space: nowrap;
+}
