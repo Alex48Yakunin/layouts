@@ -13,7 +13,7 @@ const CardsView = (props) => {
           <img className="shop-card__img" src={card.img} alt={card.name} />
 
           <div className="shop-card__footer">
-            <div className="shop-card__price">"$"{card.price}</div>
+            <div className="shop-card__price">&#36;{card.price}</div>
             <button className="shop-card__btn">Add to cart</button>
           </div>
 
