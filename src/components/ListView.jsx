@@ -18,7 +18,7 @@ const ListView = (props) => {
             <div className="shop-item__price">"$"{item.price}</div>
 
             <div className="shop-item__btn">
-              <button>"Add to Cart"</button>
+              <button>Add to Cart</button>
             </div>
           </div>
     </li>

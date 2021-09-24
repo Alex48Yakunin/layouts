@@ -7,14 +7,14 @@ const CardsView = (props) => {
   let shopcards  = cards.map((card, index) => {
     return (
       <div key={index} className="shop-card">
-        
+
           <div className="shop-card__name">{card.name}</div>
           <div className="shop-card__color">{card.color}</div>
           <img className="shop-card__img" src={card.img} alt={card.name} />
 
           <div className="shop-card__footer">
             <div className="shop-card__price">"$"{card.price}</div>
-            <button className="shop-card__btn">"Add to cart"</button>
+            <button className="shop-card__btn">Add to cart</button>
           </div>
 
     </div>
